@@ -1,0 +1,11 @@
+#marg {
+  margin-left: 45%; 
+  margin-right: 45%;
+}
+
+#marg {
+  background-color: lightblue;
+  width: 20%;
+  padding: 5px;
+  text-align: center;
+}
