@@ -4,10 +4,57 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      #marg {
+        margin-left: 40%; 
+        margin-right: 40%;
+      }
+    </style>
   </head>
 
   <body>
-    <p>Hello World, we are software developer!</p>
+    <div id="marg">
+      <h1 id="title">Microverse Survey</h1>
+      <p id="description">Welcome to microverse</p>
+      <form id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <br><br>
+        <label for="email" id="name-email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+        <br>
+        <span>This email is incorrect</span>
+        <br><br>
+        <label for="number" id="name-number">Number</label>
+        <input type="number" id="number" placeholder="Enter your number">
+        <br>
+        <span>This number is incorrect</span>
+        <br>
+        <span>This number must be enter 8 and 20</span>
+        <br><br>
+        <select id="dropdown">
+          <option>Select something</option>
+        </select>
+        <br><br>
+        <div>
+          <input type="radio" name="test">
+          <input type="radio" name="test">
+          <input type="radio" name="test">
+          <input type="radio" name="test">
+        </div>
+        <div>
+          <input type="checkbox" value="Facebook">
+          <input type="checkbox" value="Twiter">
+          <input type="checkbox" value="LinkLn">
+          <input type="checkbox" value="Instagram">
+        </div>
+        <br><br>
+        <textarea placeholder="Enter your comment"></textarea>
+        <br><br>
+        <button id="submit">Send</button>
+      </form>
+    </div>
+
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
